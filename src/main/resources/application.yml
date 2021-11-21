@@ -1,0 +1,22 @@
+server:
+  port: 8180
+  servlet:
+    context-path: /sebo-online
+  error:
+    include-message: always
+    include-binding-errors: always
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    hikari:
+      maximum-pool-size: 3
+    username: grfybloarehgiv
+    password: ad0082a4af3b1fb1a69bcb4721db4b75cb792b53d4d50cb1337063b89ef2b3f9
+    url: jdbc:postgresql://ec2-107-21-10-179.compute-1.amazonaws.com:5432/d3ehgccvq0s1s0?currentSchema=public
+    driver-class-name: org.postgresql.Driver
