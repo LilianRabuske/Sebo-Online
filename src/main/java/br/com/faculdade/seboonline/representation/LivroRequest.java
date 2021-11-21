@@ -1,10 +1,12 @@
 package br.com.faculdade.seboonline.representation;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
+@NoArgsConstructor
 public class LivroRequest {
 
     private String cpfUsuario;
