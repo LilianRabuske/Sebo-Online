@@ -6,10 +6,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-public class SeboonlineApplication {
+public class SeboOnlineApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SeboonlineApplication.class, args);
+		SpringApplication.run(SeboOnlineApplication.class, args);
 	}
 
 }

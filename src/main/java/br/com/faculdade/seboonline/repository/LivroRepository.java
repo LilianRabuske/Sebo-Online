@@ -2,9 +2,7 @@ package br.com.faculdade.seboonline.repository;
 
 
 import br.com.faculdade.seboonline.domain.Livro;
-import io.swagger.models.auth.In;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
